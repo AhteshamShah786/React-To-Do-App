@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Todos list
+            {props.title}
           </a>
           <button
             className="navbar-toggler"
