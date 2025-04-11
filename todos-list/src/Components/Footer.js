@@ -1,11 +1,11 @@
-import React from 'react'
-// named export 
-export const Footer = () => {
+import React from "react";
+
+const Footer = () => {
   return (
-    <div>
-      Footer Works!!
-    </div>
-  )
-}
+    <footer style={{ textAlign: "center", marginTop: "50px", padding: "10px" }}>
+      <p>© 2025 My Todo App</p>
+    </footer>
+  );
+};
 
-
+export default Footer;

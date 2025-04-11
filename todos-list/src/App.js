@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Components/Header"
-import {Footer} from "./Components/Footer" 
-import Todos from "./Components/Todos"
-import {Todo_item} from "./Components/Todo_item"
+import Header from "./Components/Header";
+import Footer from "./Components/Footer"; // Use default import style if preferred
+import Todos from "./Components/Todos";
+
 function App() {
   return (
     <>
-      <Header title = "My Todos List"/>
-      <Footer/>
-      <Todos/>
-      <Todo_item />
+      <Header title="My Todos List" />
+      <Todos />
+      <Footer />
     </>
   );
 }
