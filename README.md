@@ -8,17 +8,5 @@ Add and delete tasks dynamically​
 Modular component structure​
 Clean and minimal UI​
 
-# Project Structure
-src/
-├── Components/
-│   ├── AddTodo.js
-│   ├── Footer.js
-│   ├── Header.js
-│   ├── TodoItem.js
-│   └── Todos.js
-├── App.js
-├── App.css
-└── index.js
-
 # License
 This project is licensed under the MIT License.
